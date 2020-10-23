@@ -1,0 +1,22 @@
+﻿  C++project4.cpp
+D:\hello\C++project4\C++project4.cpp(147,17): warning C4477: “sprintf”: 格式字符串“%6ld”需要类型“long”的参数，但可变参数 1 拥有了类型“T”
+          with
+          [
+              T=__int64
+          ]
+D:\hello\C++project4\C++project4.cpp(147,17): message : 请考虑在格式字符串中使用“%lld”
+D:\hello\C++project4\C++project4.cpp(147,17): message : 请考虑在格式字符串中使用“%I64d”
+D:\hello\C++project4\C++project4.cpp(142): message : 在编译 类 模板 成员函数“char *MAT<__int64>::print(char *) noexcept const”时
+D:\hello\C++project4\C++project4.cpp(160): message : 查看对正在编译的 类 模板 实例化“MAT<__int64>”的引用
+D:\hello\C++project4\C++project4.cpp(150,18): warning C4477: “sprintf”: 格式字符串“%8d”需要类型“int”的参数，但可变参数 1 拥有了类型“T”
+          with
+          [
+              T=__int64
+          ]
+D:\hello\C++project4\C++project4.cpp(150,18): message : 请考虑在格式字符串中使用“%lld”
+D:\hello\C++project4\C++project4.cpp(150,18): message : 请考虑在格式字符串中使用“%I64d”
+D:\hello\C++project4\C++project4.cpp(107): warning C4715: “MAT<__int64>::operator=”: 不是所有的控件路径都返回值
+D:\hello\C++project4\C++project4.cpp(107): warning C4715: “MAT<int>::operator=”: 不是所有的控件路径都返回值
+TestMAT.lib(pch.obj) : warning LNK4099: 未找到 PDB“Test.pdb”(使用“TestMAT.lib(pch.obj)”或在“D:\hello\C++project4\Debug\Test.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+TestMAT.lib(TEST.obj) : warning LNK4099: 未找到 PDB“Test.pdb”(使用“TestMAT.lib(TEST.obj)”或在“D:\hello\C++project4\Debug\Test.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  C++project4.vcxproj -> D:\hello\C++project4\Debug\C++project4.exe

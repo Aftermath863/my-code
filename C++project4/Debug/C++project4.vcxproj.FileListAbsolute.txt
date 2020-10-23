@@ -1,0 +1,2 @@
+D:\hello\C++project4\Debug\C++project4.exe
+D:\hello\C++project4\Debug\C++project4.pdb
